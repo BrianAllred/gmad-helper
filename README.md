@@ -3,6 +3,13 @@ gmad-helper
 
 Library to help developers interface with gmad.exe within their applications for manipulating Garry's Mod addons
 
+To add to your project:
+- Open Git Shell to your project's root directory.
+- git submodule add https://github.com/BrianAllred/gmad-helper.git gmad-helper
+- git submodule init
+- git submodule update
+- Add gmadhelper.csproj to your project's solution and add the solution reference
+
 Constructor
 ===========
 
